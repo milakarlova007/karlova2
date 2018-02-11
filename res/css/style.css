@@ -1,0 +1,262 @@
+/*Fonts*/
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Montserrat Alternates Medium'), local('MontserratAlternates-Medium'), url(https://fonts.gstatic.com/s/montserratalternates/v9/YENqOGAVzwIHjYNjmKuAZmzdRttQxvr03ST-rS4eZrQU24FapfJwyacJ6xNu5rm9.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Alternates Bold'), local('MontserratAlternates-Bold'), url(https://fonts.gstatic.com/s/montserratalternates/v9/YENqOGAVzwIHjYNjmKuAZnzuTdISMALn2aO8j--lsQ4U24FapfJwyacJ6xNu5rm9.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Montserrat Alternates Black'), local('MontserratAlternates-Black'), url(https://fonts.gstatic.com/s/montserratalternates/v9/YENqOGAVzwIHjYNjmKuAZk0xcTKGdgx_yuflZEM9sr0U24FapfJwyacJ6xNu5rm9.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+
+body {
+  font-size: 16px;
+  background-image: url("../img/background-2.jpg");
+  background-position:center;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+main.main-content {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 110rem;
+  margin-top: 2rem;
+}
+
+.logo {
+  display: flex;
+  background-color: white;
+}
+
+.bck-color-white {
+  background-color: white;
+}
+
+.logo-img  {
+  width: auto;
+  height: auto;
+}
+
+.logo-img img {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 2.7rem;
+  line-height: 1.5;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 700;
+}
+
+nav {
+  margin-top: 2rem;
+}
+
+.dropdown-menu li a:hover {
+  font-weight: bold !important;
+
+}
+
+.carousel {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  font-size: 1.8rem !important;
+  color: black !important;
+}
+
+.btn-link {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.black-border {
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.left img {
+  width: 100%;
+  height: auto;
+}
+
+.shadow {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.text-centr {
+  text-align: center !important;
+}
+
+
+
+.text-red {
+  color: red !important;
+}
+
+.text-grey {
+  color: #666;
+}
+
+.text-brown {
+  color: brown !important;
+}
+
+p.text-centr {
+  font-size: 1.5rem !important;
+}
+
+.paragraf {
+  font-size: 1.7rem !important;
+  background-color: white;
+}
+
+.paragraf-margin-left {
+  margin-left: 5rem;
+}
+
+em {
+  font-style: italic;
+}
+
+.documents {
+  font-size: 1.7rem !important;
+}
+
+.documents li a{
+  font-size: 1.7rem !important;
+}
+
+.documents li {
+  list-style: disc;
+  font-size: 1.7rem !important;
+}
+
+.documents ol li {
+  list-style:decimal;
+  margin-left: 5rem;
+  font-style: italic;
+}
+
+ol.documents li {
+  list-style:decimal;
+  margin-left: 5rem;
+  font-style: italic;
+}
+
+ol.documents  li {
+  list-style:decimal;
+  margin-left: 5rem;
+  font-style: italic;
+}
+
+
+.margin-tb-05 li {
+  margin: 0.5rem 0;
+}
+
+.margin-tb-05 {
+  margin: 0.5rem 0;
+}
+
+.margin-tb-3 {
+  margin: 3rem 0;
+}
+
+.margin-top-4 {
+  margin-top: 4rem;
+}
+
+.list {
+  list-style: disc;
+  font-size: 1.8rem !important;
+  font-weight: bold;
+  line-height: 1.8 !important;
+}
+
+.list2 {
+  list-style: disc;
+  font-size: 1.8rem !important;
+  line-height: 1.8 !important;
+}
+
+.main-menu {
+  margin-left: 2rem;
+
+}
+
+.submenu {
+  margin-left: 3rem;
+}
+
+
+footer {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer h3 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+}
+
+footer .divide {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+footer .divide ul {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+footer .divide ul li {
+    font-size: 1.3rem !important;
+    padding-top: 0.25rem;
+}
+
+footer .divide ul li span {
+    font-weight: bold;
+}
